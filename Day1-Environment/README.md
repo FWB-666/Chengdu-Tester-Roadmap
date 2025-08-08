@@ -12,7 +12,7 @@
 | 用户表创建 | ![表结构](../screenshots/user_table.png) |
 
 ## 二、操作代码
-```sql
+``sql
 -- 创建 user 表（在Navicat执行）
 CREATE TABLE `user` (
   `id` INT PRIMARY KEY,
