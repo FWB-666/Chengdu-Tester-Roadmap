@@ -7,9 +7,9 @@
 ## 一、今日成果
 | 任务 | 完成证明 |
 |------|----------|
-| Postman 安装 | ![请求截图](../screenshots/postman_api.jpg) |
-| MySQL 8 部署 | ![版本验证](../screenshots/mysql_version.png) |
-| 用户表创建 | ![表结构](../screenshots/user_table.png) |
+| Postman 安装 | ![请求截图](Chengdu-Tester-Roadmap/Day1-Environment/screenshots/postman_api.jpg) |
+| MySQL 8 部署 | ![版本验证](Chengdu-Tester-Roadmap/Day1-Environment/screenshots/mysql_version.png) |
+| 用户表创建 | ![表结构](Chengdu-Tester-Roadmap/Day1-Environment/screenshots/user_table.png) |
 
 ## 二、操作代码
 ``sql
@@ -23,7 +23,7 @@ CREATE TABLE `user` (
 INSERT INTO `practice_db`.`user` (`id`, `email`, `first_name`, `last_name`, `avatar`) VALUES (1, 'fwb@test.com', 'wb', 'f', 'http://example.com/your-photo.jpg');
 
 ## 三、遇到的问题
-### ❌ 表名错误报错 1146
+表名错误报错 1146
 **错误SQL**：`SELECT * FROM users`  
 **原因**：实际表名为 `user`  
 **修复**：  
