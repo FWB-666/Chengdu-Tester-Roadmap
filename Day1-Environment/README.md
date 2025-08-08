@@ -7,7 +7,7 @@
 ## 一、今日成果
 | 任务 | 完成证明 |
 |------|----------|
-| Postman 安装 | ![请求截图](Chengdu-Tester-Roadmap/Day1-Environment/Day1-Environment/screenshots/postman_api.jpg/) |
+| Postman 安装 | ![请求截图](Day1-Environment/screenshots/postman_api.jpg) |
 | MySQL 8 部署 | ![版本验证](Day1-Environment/screenshots/mysql_version.png) |
 | 用户表创建 | ![表结构](Day1-Environment/screenshots/user_table.png) |
 
