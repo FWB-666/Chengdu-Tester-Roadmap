@@ -15,13 +15,10 @@
 
 ## 二、Postman登录接口测试
 使用备用接口 `https://postman-echo.com/post` 完成以下验证：
-功能测试 |请求数据正确返回(postman_collection/screenshots/测试结果详情.png)
-异常测试 | 错误凭证处理(postman_collection/screenshots/错误响应界面.png)
+![功能测试](postman_collection/screenshots/测试结果详情.png)
+![异常测试](postman_collection/screenshots/错误响应界面.png)
 | 安全测试 | HTTPS加密传输 | ✅ |
 | 性能测试 | 响应时间<1000ms | ✅ (平均623ms) |
-
-
-(postman_collection/screenshots/错误响应界面.png)
 
 ## 四、测试用例设计
 对象：图书管理系统的登录功能  
