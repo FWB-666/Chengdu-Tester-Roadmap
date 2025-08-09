@@ -24,9 +24,9 @@
 | 安全测试 | HTTPS加密传输 | ✅ |
 | 性能测试 | 响应时间<1000ms | ✅ (平均623ms) |
 
-测试证据
-![正常测试](postman_collection/screenshots/测试结果详情.png)
-![异常测试](postman_collection/screenshots/错误响应界面.png)
+测试证据：
+![正常测试](postman_collection/screenshots/测试结果详情.png)；
+![异常测试](postman_collection/screenshots/错误响应界面.png)；
 
 ## 四、测试用例设计
 对象：图书管理系统的登录功能  
