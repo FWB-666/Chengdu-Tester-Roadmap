@@ -1,0 +1,14 @@
+INSERT INTO `leetcode_1` (`id`, `name`, `age`, `city`) VALUES (1, '张敏', 25, '成都');
+INSERT INTO `leetcode_1` (`id`, `name`, `age`, `city`) VALUES (2, '李民', 23, '重庆');
+INSERT INTO `leetcode_1` (`id`, `name`, `age`, `city`) VALUES (3, '萨湖', 40, '上海');
+INSERT INTO `leetcode_1` (`id`, `name`, `age`, `city`) VALUES (4, '吴吉', 15, '北京');
+INSERT INTO `leetcode_1` (`id`, `name`, `age`, `city`) VALUES (5, '艾夫', 26, '上海');
+INSERT INTO `leetcode_1` (`id`, `name`, `age`, `city`) VALUES (6, '法正', 35, '成都');
+INSERT INTO `leetcode_1` (`id`, `name`, `age`, `city`) VALUES (1, '张敏', 25, '成都');
+INSERT INTO `leetcode_1` (`id`, `name`, `age`, `city`) VALUES (6, '法正', 35, '成都');
+INSERT INTO `leetcode_1` (`city`, `avg_age`) VALUES ('成都', 30.0000);
+INSERT INTO `leetcode_1` (`city`, `avg_age`) VALUES ('重庆', 23.0000);
+INSERT INTO `leetcode_1` (`city`, `avg_age`) VALUES ('上海', 33.0000);
+INSERT INTO `leetcode_1` (`city`, `avg_age`) VALUES ('北京', 15.0000);
+INSERT INTO `leetcode_1` (`name`) VALUES ('萨湖');
+INSERT INTO `leetcode_1` (`name`) VALUES ('艾夫');
