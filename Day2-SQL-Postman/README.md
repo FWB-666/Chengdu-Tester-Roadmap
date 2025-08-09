@@ -2,15 +2,15 @@
 > **今日进度**：3/3 ✅ 
 ## 一、SQL练习环境搭建
 为保护Day1的`user`表原始数据，新建练习专用表：
-插入练习数据INSERT INTO `user` VALUES 
+插入练习数据INSERT INTO `user-day2` VALUES 
 1. 查询成都用户  
-   SELECT * FROM `user` WHERE city='成都';  
+   SELECT * FROM `user-day2` WHERE city='成都';  
 2. 统计各城市用户平均年龄
    SELECT city, AVG(age) AS avg_age 
-   FROM `user` 
+   FROM `user-day2` 
    GROUP BY city;
 3. 查找年龄大于 25 的非成都用户  
-   SELECT name FROM `user` 
+   SELECT name FROM `user-day2` 
    WHERE age > 25 AND city != '成都';
 
 ## 二、Postman登录接口测试
@@ -25,8 +25,8 @@
 | 性能测试 | 响应时间<1000ms | ✅ (平均623ms) |
 
 测试证据
-![正常测试](../postman_collection/screenshots/normal_test_pass.png)
-![异常测试](../postman_collection/screenshots/error_test_400.png)
+![正常测试](postman_collection/screenshots/测试结果详情.png)
+![异常测试](postman_collection/screenshots/错误响应界面.png)
 
 ## 四、测试用例设计
 对象：图书管理系统的登录功能  
