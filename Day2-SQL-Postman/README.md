@@ -14,11 +14,12 @@
    WHERE age > 25 AND city != '成都';
 
 ## 二、Postman登录接口测试
-使用备用接口 `https://postman-echo.com/post` 完成以下验证：
-![功能测试](postman_collection/screenshots/测试结果详情.png)
-![异常测试](postman_collection/screenshots/错误响应界面.png)
-| 安全测试 | HTTPS加密传输 | ✅ |
-| 性能测试 | 响应时间<1000ms | ✅ (平均623ms) |
+
+| 任务 | 完成证明 |
+|------|----------|
+| 正常结果 | ![功能测试](postman_collection/screenshots/测试结果详情.png)
+|异常结果 | ![异常测试](postman_collection/screenshots/错误响应界面.png)
+
 
 ## 四、测试用例设计
 对象：图书管理系统的登录功能  
