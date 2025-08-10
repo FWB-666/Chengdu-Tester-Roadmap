@@ -2,7 +2,7 @@
 > **求职目标**：测试工程师  
 > **技术栈**：`XMind Pro` `OWASP安全测试` `兼容性矩阵` `业务场景建模`  
 > **今日成果**：✅20+条高价值用例 ✅ 特化场景全覆盖  
-> **可视化报告**：[完整用例图](test_cases/book_login.xmind) 
+> **可视化报告**：[完整用例图](test_cases/book_login.png) 
 
 ## 一、三维测试架构设计（FSC模型）
 mermaid
